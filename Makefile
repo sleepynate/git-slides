@@ -21,7 +21,8 @@ doc: build
 test: small-tests
 
 small-tests: build
-	find src -name '*.hs' | xargs doctest -package-db "$$(ls -d cabal-dev/packages-*.conf)"
+	find src -name '*.hs' | xargs doctest
+	#-package-db "$$(ls -d cabal-dev/packages-*.conf)"
 	@echo
 
 
