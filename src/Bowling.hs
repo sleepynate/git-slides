@@ -2,8 +2,8 @@
 module Bowling where
 
 
--- | Remember the Bowling code kata
---   from Bertin's TDD presentation?
+-- | Compare with Bowling.java
+--                                  
 --
 -- Tests (doctest syntax):
 --
