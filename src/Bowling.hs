@@ -2,8 +2,16 @@
 module Bowling where
 
 
------------------------------------------
--- Solving the Bowling Kata in Haskell --
------------------------------------------
-
---            A live demo.             --
+-- | Remember the Bowling code kata
+--   from Bertin's TDD presentation?
+--
+-- Examples:
+--
+-- >>> score "XXXXXXXXXXXX"
+-- 300
+-- 
+-- >>> score "9-9-9-9-9-9-9-9-9-9-"
+-- 90
+--
+-- >>> score "5/5/5/5/5/5/5/5/5/5/5"
+-- 150
