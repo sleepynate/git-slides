@@ -12,7 +12,7 @@
 // 
 // Disadvantages:
 // 
-// 
+// - immutability is visible in the API     (not an impl. detail)
 // 
 // 
 // 
