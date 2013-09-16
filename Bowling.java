@@ -1,23 +1,23 @@
 import junit.framework.TestCase;
 
-// Immutability also helps to reason
-// about program behaviour.
+// What an immutable version would look like:
+// 
 
 public class SeasonListAdapter {
   // ...
   
-  public void onEpisodesLoaded(EpisodeData data) {
-    removeEmptySeasons(data);
+  public SeasonListAdapter onEpisodesLoaded(EpisodeData data) {
+    Season[] seasons = removeEmptySeasons(data);
     
-    Season season = getCurrentSeason(); // array out of bounds!
+    Season season = getCurrentSeason(); // array index ok
     displaySeason(season, data);
+    return new SeasonListAdapter(seasons);
   }
-  
   private Season getCurrentSeason() {
     return mSeasons[mCurrentSeason];
   }
   
-  private   void   removeEmptySeasons(EpisodeData data) {
-    mSeasons = /* ... */;
+  private Season[] removeEmptySeasons(EpisodeData data) {
+    return     /* ... */;
   }
 }
