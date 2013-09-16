@@ -1,19 +1,18 @@
 import junit.framework.TestCase;
 
-public class BowlingKata extends TestCase {
-  public BowlingKata(String testName) {
-    super(testName);
-  }
+// Immutability also helps to reason
+// about program behaviour.
 
-  public void testPerfectGame() {
-    assertEquals(scoreCard.score("XXXXXXXXXXXX"), 300);
+public class SeasonListAdapter {
+  // ...
+  
+  public void onEpisodesLoaded(EpisodeData data) {
+    Season season = getCurrentSeason();
+    displaySeason(season, data);
+    
+    removeEmptySeasons(data);
+    displaySeason(season, data);
   }
-
-  public void testAllNines() {
-    assertEquals(scoreCard.score("9-9-9-9-9-9-9-9-9-9-"), 300);
-  }
-
-  public void testAllSpares() {
-    assertEquals(scoreCard.score("5/5/5/5/5/5/5/5/5/5/5"), 150);
-  }
+  
+  // ...
 }
