@@ -7,10 +7,9 @@ public class SeasonListAdapter {
   // ...
   
   public void onEpisodesLoaded(EpisodeData data) {
-    Season season = getCurrentSeason();
-    displaySeason(season, data);
-    
     removeEmptySeasons(data);
+    
+    Season season = getCurrentSeason();
     displaySeason(season, data);
   }
   
