@@ -5,7 +5,7 @@
 // 
 // Advantages:
 // 
-// 
+// - Easier to test                                    (no setup)
 // 
 // 
 // 
