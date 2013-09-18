@@ -10,7 +10,7 @@
 //                   new way of thinking                  //
 //                                                        //
 //             laziness                                   //
-//                                                        //
+//                                   algebraic datatypes  //
 //                      monads                            //
 //                                                        //
 //                                                        //
