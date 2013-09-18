@@ -5,7 +5,7 @@
 //                                     type classes       //
 //     immutability                                       //
 //                                                        //
-//                                                        //
+//   type families                                        //
 //                                                        //
 //                   new way of thinking                  //
 //                                                        //
