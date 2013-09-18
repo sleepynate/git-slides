@@ -15,4 +15,4 @@
 // - immutability is visible in the API     (not an impl. detail)
 // - not compatible with existing libraries     (the GUI debacle)
 // - need new immutable datastructures  (slower big-O complexity)
-// 
+// - need new immutable algorithms          (new way of thinking)
