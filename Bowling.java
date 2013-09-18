@@ -3,7 +3,7 @@
 //                                                        //
 //             equational reasoning                       //
 //                                     type classes       //
-//     immutability                                       //
+//    (immutability)                                      //
 //                       point-free style                 //
 //   type families                                        //
 //                                                        //
