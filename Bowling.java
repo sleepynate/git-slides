@@ -1,7 +1,7 @@
 
 ////////////////////////////////////////////////////////////
 //                                                        //
-//                                                        //
+//             equational reasoning                       //
 //                                     type classes       //
 //     immutability                                       //
 //                       point-free style                 //
