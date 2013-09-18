@@ -11,7 +11,7 @@
 //                                                        //
 //             laziness                                   //
 //                                   algebraic datatypes  //
-//                      monads                            //
+//                      monads           (no objects)     //
 //                                                        //
 //    combinator libraries                                //
 //                                                        //
