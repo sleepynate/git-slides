@@ -3,10 +3,11 @@
 --                                             --
 --                                             --
 --                                             --
---                                             --
+--          Real Programmer can write          --
 --                                             --
 --                   HASKELL                   --
 --                                             --
+--           programs in any language          --
 --                                             --
 --                                             --
 --                                             --
@@ -14,6 +15,5 @@
 --                                             --
 --                                             --
 --                                             --
---                          a presentation by  --
---                            Samuel Gélineau  --
+--                                             --
 -------------------------------------------------
